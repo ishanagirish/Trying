@@ -1,0 +1,24 @@
+*{margin:0;padding:0;border:none;}
+html{background-color: rgb(187, 236, 215);}
+body{  min-height:100vh;
+    width:100%;
+      background-image:url("../images/greendesign.jpg");
+      background-size: cover;
+}
+.triangle-up {
+	height: 0;
+	border-left: 8vw solid transparent;
+	border-right: 8vw solid transparent;
+	border-bottom: 16vw solid #f1bfbf;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+}
+
+body {
+    cursor: url('/images/favicon.ico'), auto;
+}
+
+
